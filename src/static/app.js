@@ -107,6 +107,8 @@ document.addEventListener("DOMContentLoaded", () => {
       messageDiv.classList.remove("hidden");
       console.error("Error signing up:", error);
     }
+  });
+
   // Handle delete button clicks
   activitiesList.addEventListener("click", async (event) => {
     if (event.target.classList.contains("delete-btn")) {
